@@ -1,0 +1,5 @@
+def obter_informacoes_jogador():
+    """Solicita e retorna os dados do jogador."""
+    nick = input("Digite o nick do jogador: ").strip()
+    nivel = input("Digite o nível atual: ").strip()
+    return nick, nivel

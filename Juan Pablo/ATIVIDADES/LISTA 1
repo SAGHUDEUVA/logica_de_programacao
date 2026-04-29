@@ -1,0 +1,102 @@
+#exercicios
+# print("Bem-vindo ao mundo da programação em Python!")
+# exercicio 2
+
+# nm1=(input("Qual é seu nome?\n"))
+# id1=(input("Qual é sua idade?\n"))
+
+# print ("seu nome:", nm1)
+# print ("sua idade:", id1)
+
+# exercicio 3
+# print(135 + 246)
+# print(512 - 128)
+# soma = 135 + 246
+# subtracao = 512 - 128
+
+# print(soma)
+# print(subtracao)
+
+# print(135 + 246)
+# print(512 - 128)
+
+# print("calculadora")
+# print("operadores disponiveis: + - * /")
+
+# operador = input("digite o operador escolhido:")
+# nm1 = int(input("digite o primeiro numero:"))
+# nm2 = int(input("digite o segundo numero:"))
+
+# if operador == "+":
+#     resultado  = nm1 + nm2
+#     print("o resultado da soma:", resultado)
+
+
+# elif operador == "-":
+#     resultado = nm1 - nm2
+#     print("o resultado da subtração", resultado)
+
+# else:
+#     print("não temos essa variavel")
+     
+# #exercicio 4
+# print("resultado da multplicação de 15 por 8 eo resultado da divisão de 78 por: 3 ")
+# print(float(15*8))
+# print(float(78/3))
+
+#exercicio 5
+# print("resultado de 5 elevado á terceira potência:")
+# print(float(5**3))
+
+# exercicio 6
+
+# print("Vamos desvendar seu nome")
+# nm1 = (input("Qual seu primeiro nome?"))
+# nm2 = (input("Qual seu segundo nome?"))
+             
+# nmc = nm1 + (" ") + nm2
+# print("Seu nome é:", nmc)
+
+#exercicio 7
+# Entrada de dados
+# total_produzido = int(input("Digite a quantidade total de peças produzidas: "))
+# pecas_defeituosas = int(input("Digite a quantidade de peças defeituosas: "))
+
+# # Processamento
+# pecas_boas = total_produzido - pecas_defeituosas
+# taxa_aproveitamento = (pecas_boas / total_produzido) * 100
+
+# # Saída de resultados
+# print(f"\n--- Relatório de Eficiência ---")
+# print(f"Peças Boas: {pecas_boas}")
+# print(f"Taxa de Aproveitamento: {taxa_aproveitamento:.2f}%")
+
+# exercicio 8
+# print("eu tenho 25 anos, em 10 anos eu terei", 25 + 10, "anos.")
+
+# exercicio 9
+# Definindo os valores (float)
+# custo_hotel = 250.50
+# custo_passagem = 412.00
+# numero_noites = 3 # Você pode mudar esse número
+
+# # Cálculo do custo total
+# custo_total = (custo_hotel * numero_noites) + custo_passagem
+
+# # Exibindo o resultado
+# print(f"O custo total da viagem para {numero_noites} noites é: R$ {custo_total:.2f}")
+
+# exercicio 10
+# produto = "Notebook Gamer"
+# qtd = 15
+# preco = 5499.50
+# total = qtd * preco
+
+# print("=" * 30)
+# print("Relatório de Vendas".center(30))
+# print("=" * 30)
+# print(f"Produto: {produto}")
+# print(f"Quantidade vendida: {qtd}")
+# print(f"Preço unitário: R$ {preco:.2f}")
+# print(f"Total de vendas: R$ {total:.2f}")
+# print("=" * 30)
